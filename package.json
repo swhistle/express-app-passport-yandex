@@ -1,0 +1,21 @@
+{
+  "name": "express-app-passport-yandex",
+  "version": "1.0.0",
+  "description": "Express.js app with Passport strategy for authenticating with Yandex using the OAuth 2.0 API",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "author": "Alexander S.",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-yandex": "0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
