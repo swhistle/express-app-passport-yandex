@@ -1,0 +1,7 @@
+<% if (!user) { %>
+    <h3>Пожалуйста, <a href="/login">войдите в систему</a></h3>
+<% } else { %>
+    <h3>Привет, <%= user.name.familyName %>.</h3>
+    <a href="/profile">Открыть профиль</a>
+    <a href="/logout">Выйти</a>
+<% } %>
